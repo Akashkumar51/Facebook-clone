@@ -1,0 +1,91 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    min-height: 100vh;
+}
+
+.main-accounts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-shadow: 0px 5px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 427px) {
+    .main-accounts{
+        width: 90%;
+        height: 90%;
+    }
+  }
+
+.accounts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 427px) {
+    .accounts{
+        width: 90%;
+    }
+  }
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.emails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.numbers{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.new-passwords{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.passwords{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.signup-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
